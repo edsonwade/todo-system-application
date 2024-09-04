@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  # Backend Service
+  backend:
+    image: backend-image:latest
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/todo_db
+      - SPRING_DATASOURCE_USERNAME=todo_user
+      - SPRING_DATASOURCE_PASSWORD=todo_password
+      - SPRING_PROFILES_ACTIVE=dev
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+  # Frontend Service
+  frontend:
+    image: frontend-image:latest
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+  # PostgreSQL Database Service
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: todo_db
+      POSTGRES_USER: todo_user
+      POSTGRES_PASSWORD: todo_password
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+  # Optional: Redis Service for caching (if used)
+  redis:
+    image: redis:6
+    ports:
+      - "6379:6379"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  db-data:
