@@ -1,58 +1,84 @@
 version: '3.8'
 
 services:
-  # Backend Service
-  backend:
-    image: backend-image:latest
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
+  todo-application-system:
+    image: edsonwade126/todo-system:latest
+    container_name: todo-application
     ports:
-      - "8080:8080"
-    environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/todo_db
-      - SPRING_DATASOURCE_USERNAME=todo_user
-      - SPRING_DATASOURCE_PASSWORD=todo_password
-      - SPRING_PROFILES_ACTIVE=dev
+      - "8082:8080"
     depends_on:
-      - db
-    networks:
-      - app-network
+      - postgres
+    environment:
+      DATABASE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB}
+      POSTGRES_USERNAME: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      SERVER_PORT: '8082'
+      HIBERNATE_DDL_AUTO: 'update'
+      SPRING_PROFILES_ACTIVE: 'docker'
+    env_file:
+      - .env
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB} -h postgres" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: on-failure
 
-  # Frontend Service
-  frontend:
-    image: frontend-image:latest
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    env_file:
+      - .env
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: always
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - "./src/main/resources/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml"
+      - prometheus_data:/prometheus
+    restart: unless-stopped
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+    networks:
+      -  todo-application-net
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
     ports:
       - "3000:3000"
-    networks:
-      - app-network
-
-  # PostgreSQL Database Service
-  db:
-    image: postgres:13
-    environment:
-      POSTGRES_DB: todo_db
-      POSTGRES_USER: todo_user
-      POSTGRES_PASSWORD: todo_password
     volumes:
-      - db-data:/var/lib/postgresql/data
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      - prometheus
+    restart: always
     networks:
-      - app-network
-
-  # Optional: Redis Service for caching (if used)
-  redis:
-    image: redis:6
-    ports:
-      - "6379:6379"
-    networks:
-      - app-network
-
-networks:
-  app-network:
-    driver: bridge
+      - todo-application-net
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
 
 volumes:
-  db-data:
+  postgres_data:
+    driver: local  # Volume for PostgreSQL persistence
+  prometheus_data:
+    driver: local  # Volume for PostgreSQL persistence
+  grafana_data:
+    driver: local  # Volume for PostgreSQL persistence
+
+networks:
+  todo-application-net:
+    driver: bridge
