@@ -23,6 +23,8 @@ target/
 *.env
 /.env
 /logs/archived/
+# Ignore logs
+*.log
 
 # Ignore specific markdown files
 DDD-Architecture-Structure-and-Standard-for-Software-Development.md
