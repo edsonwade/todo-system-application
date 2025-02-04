@@ -15,8 +15,6 @@ import java.util.UUID;
  */
 public interface TaskRepository extends JpaRepository<Task, UUID> {
     Page<Task> findByNameContaining(String name, Pageable pageable);
-
     Page<Task> findByCompleted(Boolean completed, Pageable pageable);
-
     Page<Task> findByNameContainingAndCompleted(String name, Boolean completed, Pageable pageable);
 }
