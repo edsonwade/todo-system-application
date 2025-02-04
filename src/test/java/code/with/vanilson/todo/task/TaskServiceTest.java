@@ -1,9 +1,6 @@
 package code.with.vanilson.todo.task;
 
 import code.with.vanilson.todo.exception.ResourceNotFoundException;
-import code.with.vanilson.todo.task.Task;
-import code.with.vanilson.todo.task.TaskRepository;
-import code.with.vanilson.todo.task.TaskService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
