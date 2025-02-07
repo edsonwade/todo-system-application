@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
-import java.util.UUID;
+
 
 /**
  * ProjectController
@@ -36,7 +36,7 @@ public class ProjectController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Project> getProjectById(@PathVariable UUID id) {
+    public ResponseEntity<Project> getProjectById(@PathVariable Long id) {
         var project = Optional.ofNullable(projectService.getProjectById(id));
         return project
                 .map(ResponseEntity::ok)
@@ -52,7 +52,7 @@ public class ProjectController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Project> updateProject(@PathVariable UUID id, @RequestBody @Valid Project project) {
+    public ResponseEntity<Project> updateProject(@PathVariable Long id, @RequestBody @Valid Project project) {
         var projects = Optional.ofNullable(projectService.getProjectById(id));
         return projects.map(value -> ResponseEntity
                         .ok(projectService.updateProject(value.getId(), project)))
@@ -60,7 +60,7 @@ public class ProjectController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteProject(@PathVariable UUID id) {
+    public ResponseEntity<Void> deleteProject(@PathVariable Long id) {
         projectService.deleteProject(id);
         return ResponseEntity.noContent().build();
     }

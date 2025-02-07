@@ -6,7 +6,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import java.util.UUID;
 
 /**
  * ProjectService
@@ -33,7 +32,7 @@ public class ProjectService {
         return projectRepository.findAll();
     }
 
-    public Project getProjectById(UUID id) {
+    public Project getProjectById(Long id) {
         log.info("Getting project with id {}", id);
         return projectRepository
                 .findById(id)
@@ -45,7 +44,7 @@ public class ProjectService {
         return projectRepository.save(project);
     }
 
-    public Project updateProject(UUID id, @NotNull Project project) {
+    public Project updateProject(Long id, @NotNull Project project) {
         Project existingProject = projectRepository
                 .findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException(PROJECT_WITH_ID + id + NOT_FOUND));
@@ -55,7 +54,7 @@ public class ProjectService {
         return projectRepository.save(existingProject);
     }
 
-    public void deleteProject(UUID id) {
+    public void deleteProject(Long id) {
         if (!projectRepository.existsById(id)) {
             log.error("Project with id {} not found", id);
             throw new ResourceNotFoundException(PROJECT_WITH_ID + id + NOT_FOUND);

@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
-import java.util.UUID;
+
 
 /**
  * Task
@@ -18,18 +18,17 @@ import java.util.UUID;
  * @since 2025-02-03
  */
 @Entity
-@Getter
-@Setter
 @NoArgsConstructor
+@SuppressWarnings("all")
 public class Task {
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
     private String name;
     private String description;
     private boolean completed;
-    private LocalDateTime createdAt;
-    private LocalDateTime updatedAt;
+    private LocalDateTime dueDate;
+
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "project_id")
@@ -39,5 +38,50 @@ public class Task {
     public void setProject(@NotNull Project project) {
         this.project = project;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public boolean isCompleted() {
+        return completed;
+    }
+
+    public void setCompleted(boolean completed) {
+        this.completed = completed;
+    }
+
+    public LocalDateTime getDueDate() {
+        return dueDate;
+    }
+
+    public void setDueDate(LocalDateTime dueDate) {
+        this.dueDate = dueDate;
+    }
+
+    public Project getProject() {
+        return project;
+    }
+
 
 }

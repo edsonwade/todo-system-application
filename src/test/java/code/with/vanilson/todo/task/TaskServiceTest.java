@@ -14,7 +14,7 @@ import org.springframework.data.domain.Pageable;
 import java.time.LocalDateTime;
 import java.util.Collections;
 import java.util.Optional;
-import java.util.UUID;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
@@ -30,18 +30,18 @@ class TaskServiceTest {
     private TaskService taskService;
 
     private Task task;
-    private UUID taskId;
+    private Long taskId;
 
     @BeforeEach
     void setUp() {
         MockitoAnnotations.openMocks(this);
-        taskId = UUID.randomUUID();
+        taskId = 1L;
         task = new Task();
         task.setId(taskId);
         task.setName("Test Task");
         task.setDescription("Test Description");
         task.setCompleted(false);
-        task.setUpdatedAt(LocalDateTime.now());
+        task.setDueDate(LocalDateTime.now());
     }
 
     @Test

@@ -8,7 +8,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.util.UUID;
+
 
 /**
  * TaskService
@@ -34,7 +34,7 @@ public class TaskService {
         return taskRepository.findAll(pageable);
     }
 
-    public Task getTaskById(UUID id) {
+    public Task getTaskById(Long id) {
         log.info("Getting task with id {}", id);
         return taskRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException(TASK_WITH_ID + id + NOT_FOUND));
@@ -45,18 +45,18 @@ public class TaskService {
         return taskRepository.save(task);
     }
 
-    public Task updateTask(UUID id, Task taskDetails) {
+    public Task updateTask(Long id, Task taskDetails) {
         log.info("Updating task with id {}", id);
         return taskRepository.findById(id).map(task -> {
             task.setName(taskDetails.getName());
             task.setDescription(taskDetails.getDescription());
             task.setCompleted(taskDetails.isCompleted());
-            task.setUpdatedAt(LocalDateTime.now());
+            task.setDueDate(LocalDateTime.now());
             return taskRepository.save(task);
         }).orElseThrow(() -> new ResourceNotFoundException(TASK_WITH_ID + id + NOT_FOUND));
     }
 
-    public void deleteTask(UUID id) {
+    public void deleteTask(Long id) {
         log.info("Deleting task with id {}", id);
         Task task = taskRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException(TASK_WITH_ID + id + NOT_FOUND));

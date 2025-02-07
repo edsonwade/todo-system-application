@@ -1,26 +1,26 @@
-2025-02-04 18:21:09,720 INFO  [background-preinit] o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
-2025-02-04 18:21:09,858 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Starting TodoApplication using Java 17.0.11 with PID 7504 (C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application\target\classes started by vamuhong in C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application)
-2025-02-04 18:21:09,859 DEBUG [restartedMain] c.with.vanilson.todo.TodoApplication: Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-04 18:21:09,861 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: The following 1 profile is active: "dev"
-2025-02-04 18:21:09,987 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-02-04 18:21:09,988 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-02-04 18:21:12,159 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-04 18:21:12,288 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 115 ms. Found 2 JPA repository interfaces.
-2025-02-04 18:21:13,233 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8081 (http)
-2025-02-04 18:21:13,246 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:21:13,248 INFO  [restartedMain] o.a.catalina.core.StandardService: Starting service [Tomcat]
-2025-02-04 18:21:13,249 INFO  [restartedMain] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-04 18:21:13,318 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
-2025-02-04 18:21:13,319 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 3330 ms
-2025-02-04 18:21:13,764 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-04 18:21:13,835 INFO  [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-04 18:21:13,881 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
-2025-02-04 18:21:14,328 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-04 18:21:14,397 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
-2025-02-04 18:21:14,922 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68168ee0
-2025-02-04 18:21:14,924 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
-2025-02-04 18:21:14,998 WARN  [restartedMain] org.hibernate.orm.deprecation: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-04 18:21:15,033 INFO  [restartedMain] o.hibernate.orm.connections.pooling: HHH10001005: Database info:
+2025-02-07 14:24:05,874 INFO  [background-preinit] o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+2025-02-07 14:24:05,998 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Starting TodoApplication using Java 17.0.11 with PID 4748 (C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application\target\classes started by vamuhong in C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application)
+2025-02-07 14:24:06,000 DEBUG [restartedMain] c.with.vanilson.todo.TodoApplication: Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-07 14:24:06,002 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: The following 1 profile is active: "dev"
+2025-02-07 14:24:06,107 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-07 14:24:06,107 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-07 14:24:07,653 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-07 14:24:07,719 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2025-02-07 14:24:08,539 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8081 (http)
+2025-02-07 14:24:08,550 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
+2025-02-07 14:24:08,552 INFO  [restartedMain] o.a.catalina.core.StandardService: Starting service [Tomcat]
+2025-02-07 14:24:08,552 INFO  [restartedMain] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-07 14:24:08,616 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2025-02-07 14:24:08,617 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2507 ms
+2025-02-07 14:24:09,015 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-07 14:24:09,077 INFO  [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-07 14:24:09,112 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2025-02-07 14:24:09,407 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-07 14:24:09,439 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2025-02-07 14:24:10,095 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@49697dd9
+2025-02-07 14:24:10,098 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2025-02-07 14:24:10,160 WARN  [restartedMain] org.hibernate.orm.deprecation: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-07 14:24:10,181 INFO  [restartedMain] o.hibernate.orm.connections.pooling: HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.0
@@ -28,45 +28,228 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-04 18:21:17,056 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-04 18:21:17,251 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-04 18:21:18,741 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/todo_db'
-2025-02-04 18:21:18,811 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
-2025-02-04 18:21:18,822 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver: Exposing 4 endpoints beneath base path '/actuator'
-2025-02-04 18:21:18,895 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:21:18,919 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
-2025-02-04 18:21:18,937 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Started TodoApplication in 10.3 seconds (process running for 12.297)
-2025-02-04 18:21:19,697 INFO  [RMI TCP Connection(4)-192.168.1.8] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-04 18:21:19,698 INFO  [RMI TCP Connection(4)-192.168.1.8] o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
-2025-02-04 18:21:19,701 INFO  [RMI TCP Connection(4)-192.168.1.8] o.s.web.servlet.DispatcherServlet: Completed initialization in 2 ms
-2025-02-04 18:24:24,584 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-04 18:24:25,075 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown: Graceful shutdown complete
-2025-02-04 18:24:25,081 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-04 18:24:25,084 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
-2025-02-04 18:24:25,097 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
-2025-02-04 18:24:28,999 INFO  [background-preinit] o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
-2025-02-04 18:24:29,059 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Starting TodoApplication using Java 17.0.11 with PID 14184 (C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application\target\classes started by vamuhong in C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application)
-2025-02-04 18:24:29,062 DEBUG [restartedMain] c.with.vanilson.todo.TodoApplication: Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-04 18:24:29,062 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: The following 1 profile is active: "dev"
-2025-02-04 18:24:29,116 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-02-04 18:24:29,117 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-02-04 18:24:30,088 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-04 18:24:30,144 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
-2025-02-04 18:24:30,941 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8081 (http)
-2025-02-04 18:24:30,951 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:24:30,953 INFO  [restartedMain] o.a.catalina.core.StandardService: Starting service [Tomcat]
-2025-02-04 18:24:30,954 INFO  [restartedMain] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-04 18:24:31,012 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
-2025-02-04 18:24:31,012 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1894 ms
-2025-02-04 18:24:31,377 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-04 18:24:31,448 INFO  [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-04 18:24:31,487 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
-2025-02-04 18:24:31,810 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-04 18:24:31,841 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
-2025-02-04 18:24:32,092 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45bca594
-2025-02-04 18:24:32,094 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
-2025-02-04 18:24:32,131 WARN  [restartedMain] org.hibernate.orm.deprecation: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-04 18:24:32,149 INFO  [restartedMain] o.hibernate.orm.connections.pooling: HHH10001005: Database info:
+2025-02-07 14:24:11,590 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-07 14:24:11,679 WARN  [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl: GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists project alter column id set data type bigint" via JDBC [ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists project alter column id set data type bigint" via JDBC [ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at code.with.vanilson.todo.TodoApplication.main(TodoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.postgresql.util.PSQLException: ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 42 common frames omitted
+2025-02-07 14:24:11,684 WARN  [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl: GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists task alter column id set data type bigint" via JDBC [ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists task alter column id set data type bigint" via JDBC [ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at code.with.vanilson.todo.TodoApplication.main(TodoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.postgresql.util.PSQLException: ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 42 common frames omitted
+2025-02-07 14:24:11,687 WARN  [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl: GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists task alter column project_id set data type bigint" via JDBC [ERRO: coluna "project_id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING project_id::bigint".]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists task alter column project_id set data type bigint" via JDBC [ERRO: coluna "project_id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING project_id::bigint".]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at code.with.vanilson.todo.TodoApplication.main(TodoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.postgresql.util.PSQLException: ERRO: coluna "project_id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING project_id::bigint".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 42 common frames omitted
+2025-02-07 14:24:11,925 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07 14:24:13,562 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/todo_db'
+2025-02-07 14:24:13,630 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2025-02-07 14:24:13,641 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver: Exposing 4 endpoints beneath base path '/actuator'
+2025-02-07 14:24:13,718 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
+2025-02-07 14:24:13,744 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
+2025-02-07 14:24:13,765 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Started TodoApplication in 9.017 seconds (process running for 10.759)
+2025-02-07 14:24:41,939 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-07 14:24:42,415 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown: Graceful shutdown complete
+2025-02-07 14:24:42,421 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07 14:24:42,425 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2025-02-07 14:24:42,429 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2025-02-07 14:24:48,315 INFO  [background-preinit] o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+2025-02-07 14:24:48,378 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Starting TodoApplication using Java 17.0.11 with PID 26940 (C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application\target\classes started by vamuhong in C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application)
+2025-02-07 14:24:48,379 DEBUG [restartedMain] c.with.vanilson.todo.TodoApplication: Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-07 14:24:48,379 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: The following 1 profile is active: "dev"
+2025-02-07 14:24:48,425 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-07 14:24:48,425 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-07 14:24:49,479 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-07 14:24:49,552 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2025-02-07 14:24:50,323 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8081 (http)
+2025-02-07 14:24:50,335 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
+2025-02-07 14:24:50,337 INFO  [restartedMain] o.a.catalina.core.StandardService: Starting service [Tomcat]
+2025-02-07 14:24:50,338 INFO  [restartedMain] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-07 14:24:50,408 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2025-02-07 14:24:50,409 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1982 ms
+2025-02-07 14:24:50,791 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-07 14:24:50,850 INFO  [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-07 14:24:50,886 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2025-02-07 14:24:51,190 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-07 14:24:51,222 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2025-02-07 14:24:51,568 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3353ebb5
+2025-02-07 14:24:51,570 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2025-02-07 14:24:51,617 WARN  [restartedMain] org.hibernate.orm.deprecation: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-07 14:24:51,642 INFO  [restartedMain] o.hibernate.orm.connections.pooling: HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.0
@@ -74,148 +257,302 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-04 18:24:33,244 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-04 18:24:33,472 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-04 18:24:34,905 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/todo_db'
-2025-02-04 18:24:34,962 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
-2025-02-04 18:24:34,971 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver: Exposing 4 endpoints beneath base path '/actuator'
-2025-02-04 18:24:35,040 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:24:35,063 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
-2025-02-04 18:24:35,080 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Started TodoApplication in 6.691 seconds (process running for 7.737)
-2025-02-04 18:24:35,836 INFO  [RMI TCP Connection(1)-192.168.1.8] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-04 18:24:35,837 INFO  [RMI TCP Connection(1)-192.168.1.8] o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
-2025-02-04 18:24:35,839 INFO  [RMI TCP Connection(1)-192.168.1.8] o.s.web.servlet.DispatcherServlet: Completed initialization in 2 ms
-2025-02-04 18:27:52,015 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener: Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-02-04 18:27:52,026 INFO  [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-04 18:27:52,030 INFO  [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol: Pausing ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:27:53,212 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown: Graceful shutdown complete
-2025-02-04 18:27:53,213 INFO  [Thread-5] o.a.coyote.http11.Http11NioProtocol: Stopping ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:27:53,223 INFO  [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-04 18:27:53,230 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
-2025-02-04 18:27:53,255 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
-2025-02-04 18:27:53,442 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Starting TodoApplication using Java 17.0.11 with PID 14184 (C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application\target\classes started by vamuhong in C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application)
-2025-02-04 18:27:53,444 DEBUG [restartedMain] c.with.vanilson.todo.TodoApplication: Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-04 18:27:53,444 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: The following 1 profile is active: "dev"
-2025-02-04 18:27:54,117 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-04 18:27:54,135 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
-2025-02-04 18:27:54,345 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8081 (http)
-2025-02-04 18:27:54,346 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:27:54,346 INFO  [restartedMain] o.a.catalina.core.StandardService: Starting service [Tomcat]
-2025-02-04 18:27:54,347 INFO  [restartedMain] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-04 18:27:54,385 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
-2025-02-04 18:27:54,385 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 934 ms
-2025-02-04 18:27:54,623 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-04 18:27:54,631 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
-2025-02-04 18:27:54,655 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-04 18:27:54,657 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-2 - Starting...
-2025-02-04 18:27:54,922 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool: HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@4e60c49
-2025-02-04 18:27:54,923 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-2 - Start completed.
-2025-02-04 18:27:54,944 WARN  [restartedMain] org.hibernate.orm.deprecation: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-04 18:27:54,945 INFO  [restartedMain] o.hibernate.orm.connections.pooling: HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+2025-02-07 14:24:53,440 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-07 14:24:53,525 WARN  [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl: GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists project alter column id set data type bigint" via JDBC [ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists project alter column id set data type bigint" via JDBC [ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at code.with.vanilson.todo.TodoApplication.main(TodoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.postgresql.util.PSQLException: ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 42 common frames omitted
+2025-02-07 14:24:53,531 WARN  [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl: GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists task alter column id set data type bigint" via JDBC [ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists task alter column id set data type bigint" via JDBC [ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at code.with.vanilson.todo.TodoApplication.main(TodoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.postgresql.util.PSQLException: ERRO: coluna "id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING id::bigint".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 42 common frames omitted
+2025-02-07 14:24:53,534 WARN  [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl: GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists task alter column project_id set data type bigint" via JDBC [ERRO: coluna "project_id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING project_id::bigint".]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists task alter column project_id set data type bigint" via JDBC [ERRO: coluna "project_id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING project_id::bigint".]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:334)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at code.with.vanilson.todo.TodoApplication.main(TodoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.postgresql.util.PSQLException: ERRO: coluna "project_id" não pode ser convertida automaticamente para tipo bigint
+  Hint: You might need to specify "USING project_id::bigint".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 42 common frames omitted
+2025-02-07 14:24:53,756 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07 14:24:55,492 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/todo_db'
+2025-02-07 14:24:55,577 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2025-02-07 14:24:55,588 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver: Exposing 4 endpoints beneath base path '/actuator'
+2025-02-07 14:24:55,667 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
+2025-02-07 14:24:55,697 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
+2025-02-07 14:24:55,726 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Started TodoApplication in 8.105 seconds (process running for 9.129)
+2025-02-07 14:24:56,188 INFO  [RMI TCP Connection(3)-192.168.1.8] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-07 14:24:56,189 INFO  [RMI TCP Connection(3)-192.168.1.8] o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2025-02-07 14:24:56,193 INFO  [RMI TCP Connection(3)-192.168.1.8] o.s.web.servlet.DispatcherServlet: Completed initialization in 3 ms
+2025-02-07 14:25:31,511 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-07 14:25:32,173 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown: Graceful shutdown complete
+2025-02-07 14:25:32,181 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07 14:25:32,184 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2025-02-07 14:25:32,189 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2025-02-07 14:25:37,980 INFO  [background-preinit] o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+2025-02-07 14:25:38,061 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Starting TodoApplication using Java 17.0.11 with PID 19024 (C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application\target\classes started by vamuhong in C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application)
+2025-02-07 14:25:38,062 DEBUG [restartedMain] c.with.vanilson.todo.TodoApplication: Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-07 14:25:38,063 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: The following 1 profile is active: "dev"
+2025-02-07 14:25:38,128 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-07 14:25:38,129 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-07 14:25:39,424 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-07 14:25:39,487 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2025-02-07 14:25:40,359 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8081 (http)
+2025-02-07 14:25:40,374 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
+2025-02-07 14:25:40,378 INFO  [restartedMain] o.a.catalina.core.StandardService: Starting service [Tomcat]
+2025-02-07 14:25:40,378 INFO  [restartedMain] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-07 14:25:40,452 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2025-02-07 14:25:40,452 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2322 ms
+2025-02-07 14:25:40,887 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-07 14:25:40,959 INFO  [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-07 14:25:40,996 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2025-02-07 14:25:41,312 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-07 14:25:41,346 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2025-02-07 14:25:41,650 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a7bf549
+2025-02-07 14:25:41,652 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2025-02-07 14:25:41,695 WARN  [restartedMain] org.hibernate.orm.deprecation: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-07 14:25:41,719 INFO  [restartedMain] o.hibernate.orm.connections.pooling: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.0
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-04 18:27:55,063 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-04 18:27:55,352 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-04 18:27:57,098 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/todo_db'
-2025-02-04 18:27:57,184 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
-2025-02-04 18:27:57,212 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver: Exposing 4 endpoints beneath base path '/actuator'
-2025-02-04 18:27:57,343 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:27:57,359 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
-2025-02-04 18:27:57,393 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Started TodoApplication in 4.025 seconds (process running for 210.049)
-2025-02-04 18:27:57,413 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
-2025-02-04 18:27:58,670 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener: Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2025-02-04 18:27:58,672 INFO  [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-04 18:27:58,673 INFO  [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol: Pausing ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:27:59,340 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown: Graceful shutdown complete
-2025-02-04 18:27:59,340 INFO  [Thread-7] o.a.coyote.http11.Http11NioProtocol: Stopping ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:27:59,343 INFO  [Thread-7] o.s.o.j.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-04 18:27:59,344 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource: HikariPool-2 - Shutdown initiated...
-2025-02-04 18:27:59,359 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource: HikariPool-2 - Shutdown completed.
-2025-02-04 18:27:59,500 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Starting TodoApplication using Java 17.0.11 with PID 14184 (C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application\target\classes started by vamuhong in C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application)
-2025-02-04 18:27:59,501 DEBUG [restartedMain] c.with.vanilson.todo.TodoApplication: Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-04 18:27:59,501 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: The following 1 profile is active: "dev"
-2025-02-04 18:28:00,031 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-04 18:28:00,048 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
-2025-02-04 18:28:00,248 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8081 (http)
-2025-02-04 18:28:00,249 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:28:00,249 INFO  [restartedMain] o.a.catalina.core.StandardService: Starting service [Tomcat]
-2025-02-04 18:28:00,250 INFO  [restartedMain] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-04 18:28:00,290 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
-2025-02-04 18:28:00,291 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 787 ms
-2025-02-04 18:28:00,494 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-04 18:28:00,498 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
-2025-02-04 18:28:00,510 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-04 18:28:00,512 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Starting...
-2025-02-04 18:28:00,692 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool: HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@3542e5d8
-2025-02-04 18:28:00,693 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Start completed.
-2025-02-04 18:28:00,706 WARN  [restartedMain] org.hibernate.orm.deprecation: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-04 18:28:00,708 INFO  [restartedMain] o.hibernate.orm.connections.pooling: HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+2025-02-07 14:25:43,062 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-07 14:25:43,190 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07 14:25:45,376 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/todo_db'
+2025-02-07 14:25:45,468 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2025-02-07 14:25:45,485 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver: Exposing 4 endpoints beneath base path '/actuator'
+2025-02-07 14:25:45,586 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
+2025-02-07 14:25:45,628 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
+2025-02-07 14:25:45,658 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Started TodoApplication in 8.442 seconds (process running for 9.668)
+2025-02-07 14:25:45,965 INFO  [RMI TCP Connection(2)-192.168.1.8] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-07 14:25:45,966 INFO  [RMI TCP Connection(2)-192.168.1.8] o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2025-02-07 14:25:45,968 INFO  [RMI TCP Connection(2)-192.168.1.8] o.s.web.servlet.DispatcherServlet: Completed initialization in 2 ms
+2025-02-07 14:25:52,825 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-07 14:25:53,361 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown: Graceful shutdown complete
+2025-02-07 14:25:53,367 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07 14:25:53,370 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2025-02-07 14:25:53,378 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2025-02-07 14:29:39,895 INFO  [background-preinit] o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+2025-02-07 14:29:39,953 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Starting TodoApplication using Java 17.0.11 with PID 5544 (C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application\target\classes started by vamuhong in C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application)
+2025-02-07 14:29:39,953 DEBUG [restartedMain] c.with.vanilson.todo.TodoApplication: Running with Spring Boot v3.4.2, Spring v6.2.2
+2025-02-07 14:29:39,954 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: The following 1 profile is active: "dev"
+2025-02-07 14:29:40,000 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-07 14:29:40,000 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-07 14:29:41,031 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-07 14:29:41,084 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2025-02-07 14:29:41,841 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8081 (http)
+2025-02-07 14:29:41,852 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
+2025-02-07 14:29:41,854 INFO  [restartedMain] o.a.catalina.core.StandardService: Starting service [Tomcat]
+2025-02-07 14:29:41,855 INFO  [restartedMain] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-07 14:29:41,921 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2025-02-07 14:29:41,922 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1921 ms
+2025-02-07 14:29:42,310 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-07 14:29:42,376 INFO  [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-07 14:29:42,412 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2025-02-07 14:29:42,746 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-07 14:29:42,789 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2025-02-07 14:29:43,133 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68f57e65
+2025-02-07 14:29:43,135 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2025-02-07 14:29:43,180 WARN  [restartedMain] org.hibernate.orm.deprecation: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-07 14:29:43,203 INFO  [restartedMain] o.hibernate.orm.connections.pooling: HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 16.0
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-04 18:28:00,782 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-04 18:28:00,977 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-04 18:28:01,668 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/todo_db'
-2025-02-04 18:28:01,703 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
-2025-02-04 18:28:01,710 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver: Exposing 4 endpoints beneath base path '/actuator'
-2025-02-04 18:28:01,743 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:28:01,751 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
-2025-02-04 18:28:01,772 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Started TodoApplication in 2.34 seconds (process running for 214.428)
-2025-02-04 18:28:01,775 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
-2025-02-04 18:28:35,856 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener: Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-02-04 18:28:35,857 INFO  [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-04 18:28:35,859 INFO  [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol: Pausing ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:28:36,684 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown: Graceful shutdown complete
-2025-02-04 18:28:36,685 INFO  [Thread-11] o.a.coyote.http11.Http11NioProtocol: Stopping ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:28:36,688 INFO  [Thread-11] o.s.o.j.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-04 18:28:36,689 INFO  [Thread-11] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Shutdown initiated...
-2025-02-04 18:28:36,704 INFO  [Thread-11] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Shutdown completed.
-2025-02-04 18:28:36,837 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Starting TodoApplication using Java 17.0.11 with PID 14184 (C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application\target\classes started by vamuhong in C:\Users\vamuhong\Documents\Vanilson\Learning\backend\Github\todo-system-application)
-2025-02-04 18:28:36,838 DEBUG [restartedMain] c.with.vanilson.todo.TodoApplication: Running with Spring Boot v3.4.2, Spring v6.2.2
-2025-02-04 18:28:36,838 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: The following 1 profile is active: "dev"
-2025-02-04 18:28:37,435 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-04 18:28:37,454 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
-2025-02-04 18:28:37,658 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat initialized with port 8081 (http)
-2025-02-04 18:28:37,659 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:28:37,659 INFO  [restartedMain] o.a.catalina.core.StandardService: Starting service [Tomcat]
-2025-02-04 18:28:37,660 INFO  [restartedMain] o.a.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-04 18:28:37,697 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
-2025-02-04 18:28:37,698 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 858 ms
-2025-02-04 18:28:37,874 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-04 18:28:37,877 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator: HHH000026: Second-level cache disabled
-2025-02-04 18:28:37,887 INFO  [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-04 18:28:37,888 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-4 - Starting...
-2025-02-04 18:28:38,163 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool: HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@4d4b2b5
-2025-02-04 18:28:38,163 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-4 - Start completed.
-2025-02-04 18:28:38,179 WARN  [restartedMain] org.hibernate.orm.deprecation: HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-04 18:28:38,181 INFO  [restartedMain] o.hibernate.orm.connections.pooling: HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
-	Database driver: undefined/unknown
-	Database version: 16.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-04 18:28:38,250 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-04 18:28:38,503 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-04 18:28:40,395 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/todo_db'
-2025-02-04 18:28:40,480 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
-2025-02-04 18:28:40,504 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver: Exposing 4 endpoints beneath base path '/actuator'
-2025-02-04 18:28:40,592 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
-2025-02-04 18:28:40,605 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
-2025-02-04 18:28:40,627 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Started TodoApplication in 3.845 seconds (process running for 253.285)
-2025-02-04 18:28:40,633 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
-2025-02-04 18:28:48,829 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-04 18:28:49,788 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown: Graceful shutdown complete
-2025-02-04 18:28:49,792 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-04 18:28:49,794 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-4 - Shutdown initiated...
-2025-02-04 18:28:49,840 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-4 - Shutdown completed.
+2025-02-07 14:29:44,886 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-07 14:29:44,996 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07 14:29:46,994 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/todo_db'
+2025-02-07 14:29:47,088 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2025-02-07 14:29:47,103 INFO  [restartedMain] o.s.b.a.e.web.EndpointLinksResolver: Exposing 4 endpoints beneath base path '/actuator'
+2025-02-07 14:29:47,191 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8081"]
+2025-02-07 14:29:47,229 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer: Tomcat started on port 8081 (http) with context path '/'
+2025-02-07 14:29:47,256 INFO  [restartedMain] c.with.vanilson.todo.TodoApplication: Started TodoApplication in 8.059 seconds (process running for 9.192)
+2025-02-07 14:29:47,537 INFO  [RMI TCP Connection(3)-192.168.1.8] o.a.c.c.C.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-07 14:29:47,538 INFO  [RMI TCP Connection(3)-192.168.1.8] o.s.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2025-02-07 14:29:47,541 INFO  [RMI TCP Connection(3)-192.168.1.8] o.s.web.servlet.DispatcherServlet: Completed initialization in 3 ms
+2025-02-07 14:30:49,352 INFO  [http-nio-8081-exec-5] c.w.vanilson.todo.task.TaskService: Getting all tasks
+2025-02-07 14:30:49,564 WARN  [http-nio-8081-exec-5] o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier: Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-02-07 14:31:08,193 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown: Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-07 14:31:08,693 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown: Graceful shutdown complete
+2025-02-07 14:31:08,699 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-07 14:31:08,702 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2025-02-07 14:31:08,706 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.

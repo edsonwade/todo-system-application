@@ -1,6 +1,6 @@
 package code.with.vanilson.todo.task;
 
-import code.with.vanilson.todo.exception.ResourceNotFoundException;;
+import code.with.vanilson.todo.exception.ResourceNotFoundException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -9,11 +9,11 @@ import org.mockito.MockitoAnnotations;
 
 import java.util.Collections;
 import java.util.Optional;
-import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
+
 
 class ProjectServiceTest {
 
@@ -24,12 +24,12 @@ class ProjectServiceTest {
     private ProjectService projectService;
 
     private Project project;
-    private UUID projectId;
+    private Long projectId;
 
     @BeforeEach
     void setUp() {
         MockitoAnnotations.openMocks(this);
-        projectId = UUID.randomUUID();
+        projectId = 1L;
         project = new Project();
         project.setId(projectId);
         project.setName("Test Project");
