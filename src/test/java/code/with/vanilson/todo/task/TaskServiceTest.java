@@ -11,7 +11,7 @@ import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.Collections;
 import java.util.Optional;
 
@@ -41,7 +41,7 @@ class TaskServiceTest {
         task.setName("Test Task");
         task.setDescription("Test Description");
         task.setCompleted(false);
-        task.setDueDate(LocalDateTime.now());
+        task.setDueDate(LocalDate.now());
     }
 
     @Test

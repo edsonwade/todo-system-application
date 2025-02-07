@@ -7,9 +7,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
-
-
 /**
  * TaskService
  *
@@ -24,9 +21,11 @@ public class TaskService {
     public static final String TASK_WITH_ID = "Task with id ";
     public static final String NOT_FOUND = " not found";
     private final TaskRepository taskRepository;
+    private final ProjectRepository projectRepository;
 
-    public TaskService(TaskRepository taskRepository) {
+    public TaskService(TaskRepository taskRepository, ProjectRepository projectRepository) {
         this.taskRepository = taskRepository;
+        this.projectRepository = projectRepository;
     }
 
     public Page<Task> getTasks(Pageable pageable) {
@@ -42,6 +41,12 @@ public class TaskService {
 
     public Task saveTask(Task task) {
         log.info("Saving task");
+
+        // Save the project if it is not already saved
+        if (task.getProject() != null && task.getProject().getId() == null) {
+            projectRepository.save(task.getProject());
+        }
+
         return taskRepository.save(task);
     }
 
@@ -51,7 +56,14 @@ public class TaskService {
             task.setName(taskDetails.getName());
             task.setDescription(taskDetails.getDescription());
             task.setCompleted(taskDetails.isCompleted());
-            task.setDueDate(LocalDateTime.now());
+            task.setDueDate(taskDetails.getDueDate());
+
+            // Save the project if it is not already saved
+            if (taskDetails.getProject() != null && taskDetails.getProject().getId() == null) {
+                projectRepository.save(taskDetails.getProject());
+            }
+            task.setProject(taskDetails.getProject());
+
             return taskRepository.save(task);
         }).orElseThrow(() -> new ResourceNotFoundException(TASK_WITH_ID + id + NOT_FOUND));
     }
