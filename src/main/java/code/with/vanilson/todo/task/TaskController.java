@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
-import java.util.UUID;
+
 
 /**
  * TaskController
@@ -48,7 +48,7 @@ public class TaskController {
     }
 
     @GetMapping(value = "/id")
-    public ResponseEntity<Task> getTaskById(UUID id) {
+    public ResponseEntity<Task> getTaskById(Long id) {
         var task = Optional.ofNullable(taskService.getTaskById(id));
         return task.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
@@ -59,14 +59,14 @@ public class TaskController {
     }
 
     @PutMapping(value = "/update-task/{id}")
-    public ResponseEntity<Task> updateTask(@PathVariable UUID id, @RequestBody Task task) {
+    public ResponseEntity<Task> updateTask(@PathVariable Long id, @RequestBody Task task) {
         var tasks = Optional.ofNullable(taskService.getTaskById(id));
         return tasks.map(value -> ResponseEntity.ok(taskService.updateTask(value.getId(), task)))
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
 
     @DeleteMapping(value = "/delete-task/{id}")
-    public ResponseEntity<Void> deleteTask(@PathVariable UUID id) {
+    public ResponseEntity<Void> deleteTask(@PathVariable Long id) {
         taskService.deleteTask(id);
         return ResponseEntity.noContent().build();
     }
